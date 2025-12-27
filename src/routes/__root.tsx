@@ -53,7 +53,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <ConvexProvider>
-          <Header />
           {children}
           <TanStackDevtools
             config={{

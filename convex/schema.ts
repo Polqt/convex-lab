@@ -11,4 +11,9 @@ export default defineSchema({
     text: v.string(),
     completed: v.boolean(),
   }),
+  items: defineTable({
+    name: v.string(),
+    location: v.string(),
+    isClaimed: v.boolean(),
+  })
 })
