@@ -15,5 +15,6 @@ export default defineSchema({
     name: v.string(),
     location: v.string(),
     isClaimed: v.boolean(),
+    createdAt: v.string(),
   })
 })
